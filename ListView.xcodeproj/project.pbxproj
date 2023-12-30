@@ -11,6 +11,7 @@
 		E4822A5C2B406AAF0034600B /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4822A5B2B406AAF0034600B /* ListView.swift */; };
 		E4822A5E2B406AB00034600B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4822A5D2B406AB00034600B /* Assets.xcassets */; };
 		E4822A612B406AB00034600B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4822A602B406AB00034600B /* Preview Assets.xcassets */; };
+		E4822A682B4072BB0034600B /* ListView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4822A672B4072BB0034600B /* ListView2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		E4822A5B2B406AAF0034600B /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		E4822A5D2B406AB00034600B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4822A602B406AB00034600B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E4822A672B4072BB0034600B /* ListView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				E4822A592B406AAF0034600B /* ListViewApp.swift */,
 				E4822A5B2B406AAF0034600B /* ListView.swift */,
+				E4822A672B4072BB0034600B /* ListView2.swift */,
 				E4822A5D2B406AB00034600B /* Assets.xcassets */,
 				E4822A5F2B406AB00034600B /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4822A682B4072BB0034600B /* ListView2.swift in Sources */,
 				E4822A5C2B406AAF0034600B /* ListView.swift in Sources */,
 				E4822A5A2B406AAF0034600B /* ListViewApp.swift in Sources */,
 			);

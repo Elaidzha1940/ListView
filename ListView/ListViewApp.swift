@@ -13,7 +13,7 @@ import SwiftUI
 struct ListViewApp: App {
     var body: some Scene {
         WindowGroup {
-            ListView()
+            ListView2()
         }
     }
 }

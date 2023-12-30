@@ -1,7 +1,7 @@
 //  /*
 //
 //  Project: ListView
-//  File: ContentView.swift
+//  File: ListView2.swift
 //  Created by: Elaidzha Shchukin
 //  Date: 30.12.2023
 //
@@ -9,7 +9,7 @@
 
 import SwiftUI
 
-struct ListView: View {
+struct ListView2: View {
     private var iOS = [
         "Objective-C",
         "Swift",
@@ -21,23 +21,23 @@ struct ListView: View {
         NavigationStack {
             List(iOS, id: \.self) { iOS in
                 Text(iOS)
-                    .listRowBackground(Color.black.opacity(0.4))
+                    .listRowBackground(Color.white.opacity(0.2))
             }
             .listRowBackground(Color.red)
             .font(.system(size: 20, weight: .semibold, design: .rounded))
             .background(
-                Image("BgImage")
-                    .resizable()
-                    .scaledToFill()
-                    .ignoresSafeArea()
+                LinearGradient(stops: [
+                    Gradient.Stop(color: .black.opacity(0.8), location: 1),
+                    Gradient.Stop(color: .mint.opacity(0.7), location: 0),
+                ], startPoint: .topLeading, endPoint: .bottomTrailing)
             )
             .scrollContentBackground(.hidden)
             .navigationTitle("Forest")
-            .foregroundStyle(.gray)
+            .foregroundStyle(.white)
         }
     }
 }
 
 #Preview {
-    ListView()
+    ListView2()
 }
