@@ -8,6 +8,44 @@ ListView -
 
 import SwiftUI
 
+struct ListView: View {
+    private var iOS = [
+        "Objective-C",
+        "Swift",
+        "SwiftUI"
+    ]
+    
+    var body: some View {
+        
+        NavigationStack {
+            List(iOS, id: \.self) { iOS in
+                Text(iOS)
+                    .listRowBackground(Color.black.opacity(0.4))
+            }
+            .listRowBackground(Color.red)
+            .font(.system(size: 20, weight: .semibold, design: .rounded))
+            .background(
+                Image("BgImage")
+                    .resizable()
+                    .scaledToFill()
+                    .ignoresSafeArea()
+            )
+            .scrollContentBackground(.hidden)
+            .navigationTitle("Forest")
+            .foregroundStyle(.gray)
+        }
+    }
+}
+
+#Preview {
+    ListView()
+}
+
+
+ListView2 -
+
+import SwiftUI
+
 struct ListView2: View {
     private var iOS = [
         "Objective-C",
