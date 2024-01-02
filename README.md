@@ -43,6 +43,7 @@ struct ListView: View {
 #Preview {
     ListView()
 }
+
 ``````````````
 
 ``````````````ruby
@@ -83,4 +84,4 @@ struct ListView2: View {
 #Preview {
     ListView2()
 }
-``````````````````
+`````````````
