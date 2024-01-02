@@ -46,10 +46,9 @@ struct ListView: View {
 
 ``````````````
 
-``````````````ruby
 ListView2 -
 ------------
-
+``````````````ruby
 import SwiftUI
 
 struct ListView2: View {
@@ -84,4 +83,4 @@ struct ListView2: View {
 #Preview {
     ListView2()
 }
-`````````````
+``````````````
