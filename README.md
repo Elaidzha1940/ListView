@@ -8,7 +8,7 @@ ListView in SwiftUI.
 
 ListView -
 -----------
-
+``````````````ruby
 import SwiftUI
 
 struct ListView: View {
@@ -81,3 +81,4 @@ struct ListView2: View {
 #Preview {
     ListView2()
 }
+
